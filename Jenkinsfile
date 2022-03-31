@@ -49,7 +49,7 @@ pipeline
 
                     if( env.buildType in ['release'] )
                     {
-                        PUSH_JAR = true;
+                        // PUSH_JAR = true;
                         PUSH_DOCKER = true;
                     }
                     else if ( env.buildType ==~ /PR-.*/ ) {
